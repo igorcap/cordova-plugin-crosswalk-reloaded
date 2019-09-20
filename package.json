@@ -1,0 +1,19 @@
+{
+  "name": "cordova-plugin-crosswalk-reloaded",
+  "version": "1.0.0",
+  "description": "This is a reloaded version of Crosswalk, with a modified .aar file in order to build a final .aab file that contains ALL architectures. Do not try to upload the APK file, as it will be rejected.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/igorcap/cordova-plugin-crosswalk-reloaded.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/igorcap/cordova-plugin-crosswalk-reloaded/issues"
+  },
+  "homepage": "https://github.com/igorcap/cordova-plugin-crosswalk-reloaded#readme"
+}

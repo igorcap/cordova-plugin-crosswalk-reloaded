@@ -6,7 +6,7 @@
   <description>Ionic Web View Engine Plugin</description>
   <license>Apache-2.0</license>
   <keywords>cordova,wkwebview</keywords>
-  <repo>https://github.com/martinlombana/cordova-plugin-crosswalk-reloaded</repo>
+  <repo>https://github.com/igorcap/cordova-plugin-crosswalk-reloaded</repo>
 
   <engines>
     <engine name="cordova" version=">=7.1.0"/>
@@ -73,6 +73,7 @@
     <source-file src="src/android/org/crosswalk/engine/XWalkCordovaClientCertRequest.java" target-dir="src/org/crosswalk/engine"/>
     <source-file src="src/android/org/crosswalk/engine/XWalkCordovaHttpAuthHandler.java" target-dir="src/org/crosswalk/engine"/>
     <source-file src="src/android/libs/xwalk_core_library-23.53.589.4-64bit.aar" target-dir="src/libs/"/>
+    <lib-file src="src/android/libs/xwalk_core_library-23.53.589.4-64bit.aar"/>
 
     <framework src="src/android/xwalk.gradle" custom="true" type="gradleReference"/>
 
@@ -110,6 +111,6 @@
     <source-file src="src/ios/IONAssetHandler.m"/>
     <asset src="src/ios/wk-plugin.js" target="wk-plugin.js"/>
   </platform>
-  <issue>https://github.com/martinlombana/cordova-plugin-crosswalk-reloaded/issues</issue>
+  <issue>https://github.com/igorcap/cordova-plugin-crosswalk-reloaded/issues</issue>
   <author>Todologic</author>
 </plugin>

@@ -33,6 +33,7 @@
       <preference name="xwalkCommandLine" value="$XWALK_COMMANDLINE"/>
       <preference name="xwalkMode" value="$XWALK_MODE" />
       <preference name="xwalkMultipleApk" value="$XWALK_MULTIPLEAPK" />
+      <preference name="xwalk64bit" value="true" />
       <preference name="android-minSdkVersion" value="19" />
 
       <preference name="webView" value="com.ionicframework.cordova.webview.IonicWebViewEngine"/>

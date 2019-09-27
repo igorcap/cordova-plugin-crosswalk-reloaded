@@ -19,6 +19,7 @@
   "dependencies": {
     "elementtree": "^0.1.7",
     "fs": "^0.0.1-security",
-    "path": "^0.12.7"
+    "path": "^0.12.7",
+    "underscore": "^1.9.1"
   }
 }
